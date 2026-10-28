@@ -21,8 +21,10 @@ export function DateField({
 }) {
   const id = useId();
   return (
-    <label className="field" htmlFor={id}>
-      <span className="field-label">{label}</span>
+    <div className="field">
+      <label className="field-label" htmlFor={id}>
+        {label}
+      </label>
       <span className="date-field">
         <input
           id={id}
@@ -47,6 +49,6 @@ export function DateField({
           />
         </span>
       </span>
-    </label>
+    </div>
   );
 }

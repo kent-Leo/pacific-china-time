@@ -1332,10 +1332,10 @@ svg {
     margin-top: 20px;
   }
   .clock-main {
-    font-size: 68px;
+    font-size: clamp(50px, 17vw, 68px);
   }
   .clock-seconds {
-    font-size: 36px;
+    font-size: clamp(26px, 9vw, 36px);
   }
   .clock-period {
     font-size: 12px;
