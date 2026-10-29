@@ -2,7 +2,7 @@
 
 洛杉矶与北京时间同步工具。React + TypeScript + Vite 纯前端 SPA，可直接由 Cloudflare Pages 托管。
 
-交付日期：2026.10.28。仓库：[kent-Leo/pacific-china-time](https://github.com/kent-Leo/pacific-china-time)。
+初版日期：2026.10.28。仓库：[kent-Leo/pacific-china-time](https://github.com/kent-Leo/pacific-china-time)。线上网站：[pacific-china-time.pages.dev](https://pacific-china-time.pages.dev/)。
 
 ## 本地运行
 
@@ -131,7 +131,7 @@ CI 在 push 和 pull request 上执行 `npm ci`、lint、typecheck、test、buil
 
 这是 Vite 默认静态构建，没有 SSR、数据库、Worker、Pages Functions、Wrangler 配置或后端运行时。`dist/index.html` 为入口，资源由 Vite 输出到 `dist/assets/`。第一版没有客户端路由，分享链接只使用根路径查询参数，直接访问和刷新不依赖重写规则。
 
-部署验收应检查 Pages 的构建日志、实际生成的线上地址、页面资源和分享链接；仓库存在或本地构建成功本身不证明线上已部署。实际交付检查结果记录在 `验收记录-2026.10.28.md`。
+部署验收应检查 Pages 的构建日志、实际生成的线上地址、页面资源和分享链接；仓库存在或本地构建成功本身不证明线上已部署。最新线上验收见 [验收记录-2026.10.29.md](验收记录-2026.10.29.md)；本地开发阶段的记录保留在 `验收记录-2026.10.28.md`。
 
 ## 验证范围
 
